@@ -39,14 +39,14 @@ minus.addEventListener('click', () => {
     clear()
 })
 
-multiply.addEventListener('click', () =>{
+multiply.addEventListener('click', () => {
     answer.textContent = Multiply(parseInt(inputins1.value),parseInt(inputins2.value))
 
     clear()
 })
 
 divide.addEventListener('click', () => {
-    answer.textContent = divide(parseInt(inputins1.value),parseInt(inputins2.value))
+    answer.textContent = Divide(parseInt(inputins1.value),parseInt(inputins2.value))
 
     clear()
 })
